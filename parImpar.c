@@ -2,15 +2,15 @@
 
 int main(){
 	
-	int par, impar, numero;
+	int numero;
 	
 	printf("Insira um numero: ");
 	scanf("%d", &numero);
 	
-	if(idade >= 18){
-		printf("Emtrada permitida!");
+	if(numero % 2){
+		printf("O número é impar!");
 	}else
-		printf("Entrada proibida!");
+		printf("O número é par!");
 	
 	
 return 0;
